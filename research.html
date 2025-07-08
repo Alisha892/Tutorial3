@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Watchly</title>
+      <meta name="author" content ="Islington">
+        <meta name="description" content ="HTML document">
+        <meta name="keywords" content ="HTML">
+        <!--Link to external stylesheet-->
+        <link rel="stylesheet" href="../css/body1.css">
+        <style>
+           .navigationLinks
+          {
+            background-color: transparent;
+            opacity: 100%;
+            height: 50px;
+            width: 30%;
+            position: absolute;
+            left: 0;
+            top:0;
+            margin-top: 110px;
+          }
+          .main
+          {
+            background-color: transparent;
+            width:90%;
+            position:relative;  
+              
+          }
+          
+          a:link, a:visited, a:active, a:focus 
+            {
+                text-decoration: none;
+                color: white;
+                font-family: corporateA;
+
+            }
+            a:hover
+            {
+                color:lightgrey;
+            }
+            a.Explore
+            {
+                background-color: transparent; 
+                color: white; 
+                text-align: center; 
+                font-size: 50px; 
+                position:absolute; 
+                margin-top: 50%; 
+                left: 140px; 
+                font-weight: bold;
+            }
+            a.Explore:hover
+            {
+                color: lightgrey;
+            }
+
+             img.setLogo
+            {
+                position: relative;
+                margin: auto;
+
+
+                top: 0;
+                left: 50%;
+                transform: translate(-50%);
+
+            }
+            
+           .research-section{
+          position: relative;/*for proper positioning */
+          padding:80px 20px;
+          color:white;
+          text-align: center; /*centers the text*/
+          background: none;
+          }
+          .research-overlay{
+          position:relative;
+          background: rgb(0, 0, 0);
+          padding: 40px;
+          border-radius: 10px;
+          }
+          .research-items{
+            display:grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit,minmax(300px,225px)); 
+            /*adjusts the number,size,and layout of colums*/
+            margin-top: 20px;
+          }
+          .research-item{
+            background: rgb(47, 45, 45);
+            padding: 20px;
+            border-radius: 10px;/*rounds the edges of bos*/
+            transition: transform 0.3s ease, box shadow 0.3px ease;/*adds transition effect*/
+          }
+          .research-item:hover{
+            transform: scale(1.05);/*slightly enlargs the item on hover*/
+          }
+        </style>
+  </head>
+  <body>
+    <!--Header section-->
+    <header>
+   
+        <!--Logo-->
+        <div class="main"> </div>
+        <!--nav-links-->
+        <div class="navigationLinks">
+
+          <ul style="list-style: none; display: flex; gap: 50px; position: absolute;" >
+           <li><span style="font-family: corporateA; text-decoration: none; font-size:30px; "><a href="home.html">Home</span></a></li>
+           <li><span style="font-family: corporateA; text-decoration: none; font-size:30px; "><a href="product.html">Products</span></a></li>
+           <li><span style="font-family: corporateA; text-decoration: none; font-size:30px; "><a href="blog5.html">Blog</span></a></li>
+           <li><span style="font-family: corporateA; text-decoration: none; font-size:30px; "><a href="about.html">About</span></a></li>
+            <li><span style="font-family: corporateA; text-decoration: none; font-size:30px; "><a href="research.html">Research</span></a></li>
+
+      </ul>
+
+    </div>
+
+    <img class ="setLogo" src="../imgs/logo.png" style="height: 250px; width: 250px;">
+      <img style="position: absolute; right: 0; height: 85px; width: 80px; margin-top: 70px;" src="../imgs/cart2.png" class="Buttons">
+    </header>
+    <!--Research section-->
+    <section id="research" class="research-section">
+      <div class="research-overlay">
+        
+        <div class="research-item">
+          <h3 style="color: white;">Analyzing the Website Components</h3><br>
+          <p style="text-align: center;">The website is divided into five parts as follows:
+            <ul style="list-style: none;">
+              <li><h4>Home Page</h4></li>
+              <p>The key feature of the home page is the slideshow that is used for attracting the viewers which help in marketing ther company followed by the quote <b>"Discover timeless Elegance in every tick".</b> It can be seen the home page is made very attractive inorder to lure the customers attention towards the collection of watches they have presented. It can also be seen that every picture of the watches enlarges which helps to provide a clear picture of the watches. </p>
+              <li><h4>Products Page</h4></li>
+              <p>The key feature of the product page is the video presented in the top of the website which enhances the overall view of the website. It is presented that the watchers sell the two types of collection:<b>Rolex-The Collection & Richard Millie-The Collection.</b>It can also be seen that the Watchly's sell very versatile and classic watches for the daily use of an individualc.</p>
+              <li><h4>Blog Page</h4></li>
+              <p>The key feature of the blog page is the blog of the watches that are presented for the consumers to provide an in=depth knowledge in the <b>Impact of Technology in Watch Industry, Consumer Trends & Technology Advancements.</b> These blogs provide an clear and definite information of watches that have been sold from the ages. </p>
+              <li><h4>About Page</h4></li>
+              <p>The key feature of the about page seems to be the interactive form where a consumer can get in touch with the Watchly's for their feedbacks and opinions.The team overview helps to get an clear vision on the members working on the Watchly's.</p>
+              <li><h4>Research Page</h4></li>
+              <p>This page seems to be the page where the website is analyzed,compared and unique features are discussed.</p>
+            </ul> 
+          </p>
+        </div><br>
+
+        <div class="research-item">
+        <h3 style="color: white;">Contrast with other e-commerce platforms</h3><br>
+        <p style="text-align: center;">
+          <table border="10" width="100%">
+            <tr>
+            <th><h4>Watchly</h4></th>
+            <th><h4>Daraz</h4></th>
+            </tr>
+            <tr>
+              <td><p>Watchly has used black and white for the website as it shows simplicity. It has products page to show case their products.It sells Rolex Collection and Richard Miller Collection.It has an unique way of shoecaing their products.</p><img src="../imgs/4.png" style="height:200px; width:auto"></td>
+              <td><p>Daraz has an pop up color used for the makertting strategy due to the vibrant orange color.It has categories to show the products they are selling. It sells all brands of watches.It's arrangemnets of products are kind of appealing due to size and the layout.</p><img src="../imgs/7.png" style="height:200px; width:auto"></td>
+            </tr>
+            <tr>
+              <th>Watchly</th>
+              <th>Alibaba</th>
+            </tr>
+            <tr>
+              <td><p>Watchly has very simple desgin and it has similar products that of alibaba.It contains add to cart button.It doesn't liking product feature. </p><img src="../imgs/11.png" style="height:200px; width:auto"></td>
+              <td><p>Alibaba and Watchly have similar products but still Alibaba has more organized page.It has a very simple design. It doesnt conatin any add to cart button.It has a feature of liking the product. </p><img src="../imgs/1.png" style="height:200px; width:auto"></td>
+            </tr>
+            <tr>
+            <th>Watchly</th>
+            <th>olx</th>
+            </tr>
+            <tr>
+              <td><p>Watchly has good quality of pictured from the direct source. It doesn't contain both like and chat button. But it sure is a trust worthy marketplace.</p><img src="../imgs/6.png" style="height:200px; width:auto"></td>
+              <td><p>olx doesnt conatin good pictures of watches for show-casing their products.It conatins like button. It also contains a chat buton for ease of communication. It is not that trust worthy.</p><img src="../imgs/3.png" style="height:200px; width:auto"></td>
+            </tr>
+            <tr>
+              <th>Watchly</th>
+              <th>eBay</th>
+            </tr>
+            <tr>
+              <td><p>Watchly also has an elegent design. It has limited collectin pieces.Photos present in this marketplace are much better</p><img src="../imgs/5.png" style="height:200px; width:auto"></td>
+              <td><p>eBay has an elegent design which helps for viewers engagement.It has a wide range of watches.And Rolex is also available in this marketplace.But it doesn't contain good quality pictures. </p><img src="../imgs/9.png" style="height:200px; width:auto"></td>
+            </tr>
+            <tr>
+              <th>Watchly</th>
+              <th>Amazon</th>
+            </tr>
+            <tr>
+              <td><p>Watchly also contains of simple and clean design due to the use of two colors. It doesn't contain any price range buttton but also conatins add to cart button. </p><img src="../imgs/8.png" style="height:200px; width:auto"></td>
+              <td><p>Amazon and Watchly have similar kinda designs.It has simple and clean website design.It also containd of price range button.It containd a add to cart button.</p><img src="../imgs/10.png" style="height:200px; width:auto"></td>
+            </tr>
+          </table>
+        </p>
+      </div><br>
+
+      <div class="research-item">
+        <h3>Highlight unique fetures</h3><br>
+        <p style="text-align: center;">
+          <ul style="list-style-type: none;"><h4>
+            <li>User-Friendly : simple layout</li>
+            <li>Innovative Tools : use of the slideshow</li>
+            <li>Simple Purchasing Process : just pressing the cart button does it</li>
+            <li>Longer Browsing : attractive means of show-casting products</li>
+          </ul></h4>
+        </p>
+      </div><br>
+      </div>
+    </section>
+
+    <!--Footer section-->
+    <footer >
+      <p style="text-align: center;" >© 2024 Watchly.com. Every image present on this site belongs to their rightful owner.<br> If you believe we are infringing on your copyright, please submit a copyright report at watchly@proton.me.</p>
+
+
+      <br>
+      <p style="text-align: center;" >
+          <a href="#fb"><img src="../imgs/fb1.png" width="30px" height="30px" class="Buttons"></a>
+          <a href="#twitter"><img src="../imgs/twitter.png" width="30px" height="30px" class="Buttons"></a>
+      </p>
+  </footer>
+
+  </body>
+</html>
